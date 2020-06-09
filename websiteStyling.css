@@ -1,0 +1,287 @@
+/* Global Classes and IDs */
+
+	/* Styling for the homepage screen */
+#screen {
+	width: 100%;
+	height: 160%;
+    border: none;
+    outline: none;
+    background-color: darkgray;
+}
+
+	/* Styling for the homepage's control-bar */
+.control-bar {
+	display: grid;
+	width: 100%;
+	height: 12%;
+	background-color: darkslategray;
+	
+}
+
+	/* Styling for the title that has my name */
+.name {
+	align-content: center;
+	margin-top: 3%;
+	margin-left: 39%;
+	font-size: 40px;
+	font-family: "Courier New";
+	color: aliceblue;
+}
+
+	/* Styling for the navigation menu bar */
+.navigation-bar {
+	width: 100%;
+	height: 99%;
+	background-color: cornflowerblue;
+	
+}
+
+	/* Styling for a link in my navigation menu bar */
+.navigation-bar a {
+	margin-left: 6%;
+	float: left;
+	padding: 10px;
+	color: aliceblue;
+	font-family: "Courier New";
+	text-decoration: none;
+	font-size: 19px;
+}
+
+	/* Hover color for a link in my navigation menu bar */
+.navigation-bar a:hover {
+	color: darkblue;
+}
+
+	/* Styling for the footer bar */
+.footer-bar {
+	width: 100%;
+	height: 10%;
+	background-color: darkslategray;
+	
+}
+
+	/* Styling for the bio's footer bar */
+.bioFooter-bar {
+	margin-top: 0%;
+	width: 100%;
+	height: 15%;
+	background-color: darkslategray;
+	
+}
+
+	/* Styling for a link in my bio's footer bar*/
+.bioFooter-bar a {
+	margin-top: 2%;
+	color: aliceblue;
+	font-family: "Courier New";
+	text-decoration: none;
+	font-size: 22px;
+}
+
+	/* Hover color a link in my bio's footer*/
+.bioFooter-bar a:hover {
+	color: darkblue;
+}
+
+	/* Styling for the homepage's footer bar */
+.footer-bar {
+	margin-top: 0%;
+	width: 100%;
+	height: 10%;
+	background-color: darkslategray;
+	
+}
+
+	/* Styling for a link in my homepage's footer bar*/
+.footer-bar a {
+	margin-top: 2%;
+	color: aliceblue;
+	font-family: "Courier New";
+	text-decoration: none;
+	font-size: 22px;
+}
+
+	/* Hover color a link in my homepage's footer*/
+.footer-bar a:hover {
+	color: darkblue;
+}
+
+	/* Positioning for the linkedIn hyperlink */
+#linkedIn {
+	float:left;
+	margin-left: 6%;
+}
+
+	/* Positioning for the email hyperlink */
+#email {
+	float: left;
+	margin-left: 25%;
+}
+
+	/* Positioning for the github hyperlink */
+#github {
+	float: left;
+	margin-left: 30%;
+}
+
+
+/* Home Page Specific Styling */
+
+	/* Styling and sizing for the headshot */
+.headshot img {
+	float: left;
+	margin-top: 2%;
+	margin-left: 7%;
+	width: 300px;
+	height: 400px;
+}
+
+	/* Styling and positioning for the homepage's short introduction */
+.shortIntro {
+	width: 600px;
+	height: 400px;;
+	margin-top: 2%;
+	margin-left: 35%;
+	font-size: 25px;
+	font-family: "Courier New";
+	background-color: darkgray;
+	color: aliceblue;
+}
+
+	/* Sizing for the container of the projects */
+.projectContainer {
+	width: 100%;
+	height: 370px;
+}
+
+	/* Sizing for the a project's image cover */
+.projectCover {
+	width: 300px;
+	height: 250px;
+}
+
+	/* Styling for a project's caption */
+.projectText {
+	color: aliceblue;
+	font-family: "Courier New";
+	text-decoration: none;
+	text-align: center;
+	font-size: 20px;
+}
+
+	/* Start of: Project Specific Styling: The
+       next 32 lines contain the styling and 
+       positioning for each of the projects that
+       are showcased on the homepage
+    */
+.project1 {
+	float: left;
+	margin-left: 7%;
+	width: 300px;
+	height: 310px;
+}
+
+.project2 {
+	float: left;
+	margin-left: 12%;
+	width: 300px;
+	height: 310px;
+}
+
+.projectTBA {
+	float: right;
+	margin-right: 2%;
+	width: 300px;
+	height: 310px;
+}
+
+.project1 a:hover {
+	color: darkblue;
+}
+
+.project2 a:hover {
+	color: darkblue;
+}
+
+.projectTBA a:hover {
+	color: darkblue;
+}
+	/* End of: Project Styling */
+
+
+/* Biography Page Specific Styling */
+
+	/* Styling and sizing for the biography's screen */
+#bioScreen {
+	width: 100%;
+	height: 100%;
+	border: none;
+    outline: none;
+    background-color: darkgray;
+}
+
+	/* Styling for the biography's control bar */
+.bioControl-bar {
+	display: grid;
+	width: 100%;
+	height: 10%;
+	background-color: darkslategray;
+	
+}
+
+	/* Styling for the biography's name title */
+.name {
+	align-content: center;
+	margin-top: 1%;
+	margin-left: 39%;
+	font-size: 40px;
+	font-family: "Courier New";
+	color: aliceblue;
+}
+
+	/* Styling for the biography's navigation menu bar */
+.bioNavigation-bar {
+	width: 100%;
+	height: 99%;
+	background-color: cornflowerblue;
+	
+}
+
+	/* Styling for a link in the bio's navigation menu bar */
+.bioNavigation-bar a {
+	margin-left: 6%;
+	float: left;
+	padding: 10px;
+	color: aliceblue;
+	font-family: "Courier New";
+	text-decoration: none;
+	font-size: 18px;
+}
+
+	/* Hover color for a link in the bio's navigation menu bar */
+.bioNavigation-bar a:hover {
+	color: darkblue;
+}
+
+	/* Positioning for the headshot on the bio page */
+.bioHeadshot img {
+	float: left;
+	margin-top: 4%;
+	margin-left: 7%;
+	width: 300px;
+	height: 400px;
+}
+
+	/* Styling and sizing for the biography's introduction */
+.bioInfo {
+	width: 800px;
+	height: 400px;;
+	margin-top: 4%;
+	margin-left: 35%;
+	font-size: 25px;
+	font-family: "Courier New";
+	background-color: darkgray;
+	color: aliceblue;
+}
+
+
