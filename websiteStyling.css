@@ -62,7 +62,7 @@
 
 	/* Styling for the bio's footer bar */
 .bioFooter-bar {
-	margin-top: 120%;
+	margin-top: 30%;
 	width: 100%;
 	height: 5%;
 	background-color: darkslategray;
@@ -214,7 +214,7 @@
 	/* Styling and sizing for the biography's screen */
 #bioScreen {
 	width: 100%;
-	height: 460%;
+	height: 230%;
 	border: none;
     outline: none;
     background-color: darkgray;
