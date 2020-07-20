@@ -6,7 +6,7 @@
 	height: 160%;
     border: none;
     outline: none;
-    background-color: darkgray;
+    background-color: darkslategray;
 }
 
 	/* Styling for the homepage's control-bar */
@@ -57,15 +57,17 @@
 	width: 100%;
 	height: 10%;
 	background-color: darkslategray;
+	border-top: 10px solid black;
 	
 }
 
 	/* Styling for the bio's footer bar */
 .bioFooter-bar {
-	margin-top: 30%;
+	margin-top: 38%;
 	width: 100%;
 	height: 5%;
 	background-color: darkslategray;
+	border-top: 10px solid black;
 	
 }
 
@@ -144,7 +146,7 @@
 	margin-left: 35%;
 	font-size: 25px;
 	font-family: "Courier New";
-	background-color: darkgray;
+	background-color: darkslategray;
 	color: aliceblue;
 }
 
@@ -214,10 +216,10 @@
 	/* Styling and sizing for the biography's screen */
 #bioScreen {
 	width: 100%;
-	height: 230%;
+	height: 290%;
 	border: none;
     outline: none;
-    background-color: darkgray;
+    background-color: darkslategray;
 }
 
 	/* Styling for the biography's control bar */
@@ -232,7 +234,7 @@
 	/* Styling for the biography's name title */
 .name {
 	align-content: center;
-	margin-top: 1%;
+	margin-top: 0%;
 	margin-left: 39%;
 	font-size: 40px;
 	font-family: "Courier New";
@@ -264,41 +266,90 @@
 }
 
 	/* Positioning for the headshot on the bio page */
-.bioHeadshot img {
+.bioImagesWrapper {
 	float: left;
-	margin-top: 4%;
-	margin-left: 7%;
-	width: 300px;
-	height: 400px;
+	width: 150px;
+	height: 1200px;
 }
 
+.bioInfoWrapper {
+	float: left;
+	height: 930px;
+	width: 900px;
+	margin-right: 5%;
+}
+
+.container {
+	width: 1200px;
+	height: 1000px;
+	margin-top: 3%;
+}
+.bioHeadshot img {
+	float: left;
+	width: 300px;
+	height: 250px;
+	margin-left: 7%;
+}
+
+.jwLogo img {
+	float: left;
+	margin-top: 8%;
+	margin-left: 7%;
+	width: 300px;
+	height: 250px;
+}
+
+.guitar img {
+	float: left;
+	margin-top: 8%;
+	margin-left: 7%;
+	width: 300px;
+	height: 250px;
+}
+
+.soccer img {
+	float: left;
+	margin-top: 8%;
+	margin-left: 7%;
+	width: 300px;
+	height: 250px;
+}
+
+.ai img {
+	float: left;
+	margin-top: 8%;
+	margin-left: 7%;
+	width: 300px;
+	height: 250px;
+}
 	/* Styling and sizing for the biography's introduction */
 .bioInfo {
 	width: 900px;
-	height: 110px;
-	margin-top: 4%;
+	height: 130px;
 	margin-left: 31%;
+	margin-top: 0%;
 	font-size: 15px;
 	font-family: "Courier New";
-	background-color: darkgray;
+	background-color: darkslategray;
 	color: aliceblue;
+	float: left;
 }
 
 .bioInfoText {
 	width: 900px;
 	height: 800px;
-	margin-top: 0%;
 	margin-left: 31%;
+	margin-top: 13%;
 	font-size: 15px;
 	font-family: "Courier New";
-	background-color: darkgray;
+	background-color: darkslategray;
 	color: aliceblue;
 }
 
 .bioInfoText a {
 	font-size: 15px;
 	font-family: "Courier New";
-	background-color: darkgray;
+	background-color: darkslategray;
 	color: aliceblue;
 }
 
